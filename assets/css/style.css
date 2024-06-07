@@ -3,14 +3,6 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -334,6 +326,13 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover; 
 }
 
 .info-content .name {
@@ -1758,8 +1757,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-
-
 /**
  * responsive larger than 1250px screen
  */
@@ -1823,7 +1820,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * SIDEBAR
    */
 
-  .sidebar {
+  /* .sidebar {
     position: sticky;
     top: 60px;
     max-height: max-content;
@@ -1831,7 +1828,17 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 0;
     padding-top: 60px;
     z-index: 1;
-  }
+  } */
+
+  .sidebar {
+    position: sticky;
+    top: 30px;
+    max-height: max-content;
+    height: 100%;
+    margin-bottom: 0;
+    padding-top: 30px;
+    z-index: 1;
+}
 
   .sidebar-info { flex-direction: column; }
 
